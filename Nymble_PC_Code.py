@@ -67,6 +67,7 @@ In particular, government should refrain from setting ambitious credit targets o
 
 print("Sending data to MCU...")
 print(message)
+#time.sleep(2) #adding delay inorder to see the message
 send_string(message)
 
 # providing delay before retrieve the data from EEPROM
